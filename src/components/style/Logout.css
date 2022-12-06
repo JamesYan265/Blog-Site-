@@ -1,0 +1,39 @@
+.logoutPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.logoutPage .logoutContainer {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 200px;
+  gap: 10px;
+  padding: 0px 40px;
+  box-shadow: 2px 8px 21px -2px #777777;
+}
+.logoutPage .logoutContainer svg {
+  font-size: 3rem;
+  color: rgb(253, 67, 67);
+}
+.logoutPage .logoutContainer p {
+  text-align: center;
+  font-weight: 700;
+}
+.logoutPage .logoutContainer button {
+  padding: 10px 0;
+  background-color: #4a9cdf;
+  border: none;
+  box-shadow: 2px 8px 21px -2px #777;
+  border-radius: 5px;
+  color: white;
+  transition: all 0.3s;
+}
+.logoutPage .logoutContainer button:hover {
+  transform: translateY(5px);
+  box-shadow: none;
+}/*# sourceMappingURL=Logout.css.map */
